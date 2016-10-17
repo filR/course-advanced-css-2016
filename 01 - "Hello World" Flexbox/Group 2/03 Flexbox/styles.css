@@ -3,7 +3,19 @@ body {
 }
 
 div {
-    background: hsl(50, 50%, 50%);
+    font-size: 5vw;
+    color: white;
+    background: hsl(150, 30%, 50%);
     height: 50px;
     width: 50px;
 }
+
+section {
+    border: 1px dotted grey;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
