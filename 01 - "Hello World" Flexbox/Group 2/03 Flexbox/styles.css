@@ -10,12 +10,17 @@ div {
     width: 50px;
 }
 
+.first {
+/*    order: 3;*/
+}
+
 section {
     border: 1px dotted grey;
     height: 50vh;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+/*    align-items: stretch;*/
 }
 
 
