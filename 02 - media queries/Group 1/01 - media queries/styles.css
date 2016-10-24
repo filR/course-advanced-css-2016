@@ -16,6 +16,22 @@ div {
     height: 50vw;
 }
 
+@media (min-width: 800px) {
+    div {
+        width: calc(100% / 3);
+        height: calc(100vw / 3);
+    }
+}
+
+@media (min-width: 1000px) {
+    div {
+        width: calc(100% / 4);
+        height: calc(100vw / 4);
+    }
+}
+
+
+
 div:nth-child(2) {
     background: hsl(200, 50%, 50%);
 }
