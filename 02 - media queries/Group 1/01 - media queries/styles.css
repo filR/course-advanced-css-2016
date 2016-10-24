@@ -12,8 +12,13 @@ section {
 
 div {
     background: hsl(50, 50%, 50%);
-    width: 50%;
-    height: 50vw;
+}
+
+@media (max-width: 799px) {
+    div {
+        width: 50%;
+        height: 50vw;
+    }
 }
 
 @media (min-width: 800px) {
