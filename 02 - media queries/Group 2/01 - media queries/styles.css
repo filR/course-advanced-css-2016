@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: hsl(50, 50%, 50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    background: hsl(150, 50%, 50%);
+    width: 50%;
+    height: 50vw;
+}
+
+@media (min-width: 600px) {
+    div {
+        width: 33.333%;
+        height: 33.333vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    div {
+        width: 25%;
+        height: 25vw;
+    }
+}
+
+
+div:nth-child(2) {
+    background: hsl(20, 50%, 50%);
+}
+
+div:nth-child(3) {
+    background: hsl(300, 50%, 50%);
+}
+
+div:nth-child(4) {
+    background: hsl(0, 50%, 50%);
+}
+
+div:nth-child(5) {
+    background: hsl(1337, 50%, 50%);
+}
+
+div:nth-child(6) {
+    background: hsl(123, 50%, 50%);
+}
+
+div:nth-child(7) {
+    background: hsl(75, 50%, 50%);
+}
+
+div:nth-child(8) {
+    background: hsl(10, 50%, 50%);
+}
