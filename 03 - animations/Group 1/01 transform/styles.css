@@ -1,4 +1,16 @@
-body {
+.ノಠ益ಠノ彡┻━┻ {
     background: #eee;
+    
+    perspective: 1000px;
 }
 
+.ᕦ⊙෴⊙ᕤ {
+    width: 200px;
+    height: 200px;
+    background: orange;
+/*    border-radius: 50px;*/
+    
+/*    transform: rotateY(80deg);*/
+    
+    transform: rotate(45deg) translate(200px, 0);
+}
