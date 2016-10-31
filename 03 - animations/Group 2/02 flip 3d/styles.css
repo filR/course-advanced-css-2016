@@ -6,6 +6,8 @@ section {
     width: 400px;
     height: 400px;
     display: flex;
+    
+    perspective: 600px;
 }
 
 div {
@@ -20,5 +22,12 @@ div {
 
 .flip {
     background: #222;
+    transform: rotateY(-110deg);
+    transform-origin: 100% 50%;
+    transition: all .3s;
+}
+
+section:hover .flip {
+    transform: rotateY(0deg);
 }
 
