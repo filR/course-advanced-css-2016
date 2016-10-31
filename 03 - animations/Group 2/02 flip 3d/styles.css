@@ -25,6 +25,7 @@ div {
     transform: rotateY(-110deg);
     transform-origin: 100% 50%;
     transition: all .3s;
+    backface-visibility: hidden;
 }
 
 section:hover .flip {
