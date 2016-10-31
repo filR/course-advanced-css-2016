@@ -15,6 +15,5 @@ div {
 
 div:hover {
     background: maroon;
-    width: 175px;
-    transform: scale(1.5);
+    width: 75px;
 }
