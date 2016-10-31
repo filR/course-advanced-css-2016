@@ -16,4 +16,6 @@ div {
 
 .flip {
     background: #222;
+    
+    transform: rotateY(-100deg);
 }
