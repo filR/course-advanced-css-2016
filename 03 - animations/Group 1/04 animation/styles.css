@@ -1,35 +1,14 @@
-section {
-    width: 400px;
-    height: 400px;
-    display: flex;
-    perspective: 600px;
-}
-
 div {
-    width: 200px;
-    height: 400px;
-    background: #111;
+    width: 50px;
+    height: 50px;
+    background: orange;
 }
 
-.panel {
-    border-left: 1px solid #999;
-    
-/*    z-index: 100;*/
+@keyframes move {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(100px, 50px);
+    }
 }
-
-.flip {
-    background: #222;
-    
-    transform: rotateY(-110deg);
-    transform-origin: 100% 50%;
-    transition: all 0.3s;
-    backface-visibility: hidden;
-}
-
-section:hover .flip {
-    transform: rotateY(0);
-}
-
-
-
-
