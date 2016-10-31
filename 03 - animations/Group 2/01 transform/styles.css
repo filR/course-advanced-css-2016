@@ -8,10 +8,12 @@ div {
     height: 50px;
     border-radius: 100px;
     
+    transition: all 1s;
+    
 /*    transform: rotate(45deg) translate(100px, 33px) scale(1.2);*/
 }
 
-
 div:hover {
-    transform: scale(2);
+    background: maroon;
+    width: 75px;
 }
