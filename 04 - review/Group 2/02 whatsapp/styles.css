@@ -1,3 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: hsl(100, 0%, 95%);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    
+    /* for large browsers */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts {
+    background: red;
+    width: 250px;
+}
+
+.chat-window {
+    background: yellow;
+    width: calc(100% - 250px);
+}
+
+/* for large browsers */
+@media (min-width: 1200px) {
+    .container {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        height: 96vh;
+    }
 }
