@@ -1,9 +1,13 @@
 body {
-    background: hsl(100, 0%, 95%);
+    background: hsl(100, 0%, 5%);
 }
 
 nav {
     background: hsl(150, 50%, 50%);
+/*    text-align: right;*/
+    
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav a {
@@ -15,3 +19,14 @@ nav a {
     padding: 1em 2em;
     display: inline-block;
 }
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 773px) {
+    nav {
+        justify-content: center;
+    }
+}
+
