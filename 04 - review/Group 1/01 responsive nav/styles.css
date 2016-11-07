@@ -1,3 +1,17 @@
 body {
     background: hsl(100, 0%, 95%);
 }
+
+nav {
+    background: hsl(150, 50%, 50%);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    padding: 1em 2em;
+}
