@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+ul, li {
+    list-style-type: none;
+}
+
 body {
     background: hsl(100, 0%, 90%);
     font-family: -apple-system, sans-serif;
@@ -42,6 +46,19 @@ body {
     }
 }
 
+
+
+/* contacts layout ------------------------- */
+
+.contacts header,
+.contact-search {
+    height: 50px;
+}
+
+.contact-list {
+    height: calc(100% - 50px * 2);
+    overflow-y: auto;
+}
 
 
 /* chat bubble ------------------------- */
