@@ -6,6 +6,10 @@
 
 body {
     background: hsl(100, 0%, 95%);
+    font-family: -apple-system, sans-serif;
+    
+    /* temporary spacing code */
+    padding: 20px;
 }
 
 .chat-bubble {
@@ -13,4 +17,14 @@ body {
     border-radius: 7px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     padding: 5px 7px;
+    width: 350px;
+    max-width: 100%;
 }
+
+.mouth {
+    width: 0;
+	height: 0;
+	border-bottom: 10px solid red;
+	border-left: 10px solid transparent;
+}
+
