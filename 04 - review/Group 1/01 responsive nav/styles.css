@@ -24,9 +24,25 @@ nav a:hover {
     background: rgba(0, 0, 0, 0.05);
 }
 
+/* medium screen */
 @media (max-width: 773px) {
     nav {
         justify-content: center;
+    }
+    nav a {
+        padding: 0.8em 1.5em;
+    }
+}
+
+/* small screen */
+@media (max-width: 620px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a {
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
 }
 
