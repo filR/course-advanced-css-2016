@@ -12,6 +12,6 @@ nav a {
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    
     padding: 1em 2em;
+    display: inline-block;
 }
